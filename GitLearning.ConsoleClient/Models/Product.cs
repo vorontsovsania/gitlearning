@@ -9,5 +9,11 @@ namespace GitLearning.ConsoleClient.Models
         public string Description { get; set; }
         public string CategoryId { get; set; }
         public DateTime LastModificationDatetime { get; set; }
+
+        public override string ToString()
+        {
+            //return "{Id} {Title} {Description}";
+            return String.Format("{0} {1} {2}", Id, Title, Description);
+        }
     }
 }
