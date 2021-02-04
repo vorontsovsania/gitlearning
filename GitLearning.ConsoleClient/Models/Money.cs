@@ -8,5 +8,15 @@
         {
             Value = value;
         }
+
+        public Money Add(decimal value)
+        {
+            return new Money(Value + value);
+        }
+
+        public Money Subtract(decimal value)
+        {
+            return new Money(Value - value);
+        }
     }
 }
