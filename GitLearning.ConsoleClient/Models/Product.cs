@@ -12,8 +12,7 @@ namespace GitLearning.ConsoleClient.Models
 
         public override string ToString()
         {
-            //return "{Id} {Title} {Description}";
-            return String.Format("{0} {1} {2}", Id, Title, Description);
+            return $"{Id} {Title} {Description}";
         }
     }
 }
