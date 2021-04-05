@@ -21,6 +21,11 @@ namespace GitLearning.ConsoleClient.Models
             return new Money(Value - value);
         }
 
+        public Money Multiple(decimal value)
+        {
+            return new Money(Value * value);
+        }
+
         public bool Equals(Money other)
         {
             if (ReferenceEquals(null, other))
