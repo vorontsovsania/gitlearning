@@ -11,6 +11,7 @@ namespace GitLearning.ConsoleClient.Models
         public string Description { get; set; }
         public string CategoryId { get; set; }
         public DateTime LastModificationDatetime { get; set; }
+        public string Comments { get; set; }
 
         public override string ToString()
         {
